@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Главная</title>
+		<!-- Swiper CSS -->
+		<link rel="stylesheet" href="styles/swiper-bundle.min.css" />
+		
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		
+		<!-- Boxicons CSS -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	
+	<body>
+		<header class="menu">
+			<div class='logo-content'>
+				<img src="image/logo.png" style="height: 40px;">
+				<h1 class='logo'>BOOKSWAP</h1>
+			</div>
+			<a href="#who" class='nav'>
+				Кто мы?
+			</a>
+			<a href="#croos" class='nav'>
+				Обменивай книги!
+			</a>
+			<a href="#where" class='nav'>
+				Где нас найти?
+			</a>
+			<a href="#reviews" class='nav'>
+				Отзывы
+			</a>
+			<a href="https://www.figma.com/design/wFiponn0jji8RqU1ihrfCe/%D0%B2%D0%B5%D0%B1?node-id=0-1&t=xHQGIlVJqZ64fFop-1" class='button'>
+			СКАЧАТЬ
+			</a>
+		</header>
+		
+		<main>
+			<section class='content'>
+				<div class='logo-content' style='margin-bottom: 32px;'>
+					<img src="image/logo.png" style="height: 100px;">
+					<h1 class='logo'>BOOKSWAP</h1>
+				</div>
+				<h3 style='margin-bottom: 32px;'>Бери, читай, передавай!</h3>
+				<a href="https://www.figma.com/design/wFiponn0jji8RqU1ihrfCe/%D0%B2%D0%B5%D0%B1?node-id=0-1&t=xHQGIlVJqZ64fFop-1" class='button' style='margin-bottom: 32px;'>
+					СКАЧАТЬ
+				</a>
+			</section>
+			
+			<section id='who'>
+			<div class="container">
+				<div class="section_2">
+					<h2 style="color: #FF7700;">КТО МЫ?</h2>
+					<p>Мы сервис, где любители книг могут обмениваться между собой любимыми произведениями!</p>
+				</div>
+
+				<div class="section_2">
+					<h2 style="color: #FF7700;">ЧТО МЫ ПРЕДЛАГАЕМ?</h2>
+					<p>Вы можете отдать свои книги другим людям и подарить им новую жизнь, а вместо них взять новое для себя! Или вы можете оставить книгу в одном из наших специальных мест и самостоятельно выбрать что-то из уже оставленного!</p>
+				</div>
+
+				<div class="section_2">
+					<h2 style="color: #FF7700;">КАК МЫ РАБОТАЕМ?</h2>
+					<p>Наш сервис абсолютно бесплатен! Вы сами выбираете что и у кого обменять свою книгу!</p>
+				</div>
+			</div>
+			</section>
+			
+			<section id='croos'>
+				<div style="display: flex; flex-flow: row wrap; gap:32px; margin-left: 100px;">
+					<div class="content_gif">
+						<h2 style="color: #FF7700;">ОБМЕНИВАЙ КНИГИ ЛЕГКО!</h2>
+						<ol>  
+							<li>Найди книгу что по душе</li>  
+							<li>Предложи свою книгу для обмена</li>  
+							<li>Встреся и оменяйся</li> 
+							<li>Повтори снова!</li> 
+						</ol>  
+
+					</div>
+					<img src="image/para.gif" class='gif'>
+				</div>
+			</section>
+			
+
+			
+			<section id='where'>				
+				<div style="display: flex; gap:32px; margin-left: 100px;  align-items: flex-start; position: relative; align-items: center;">
+					<img src="image/town.gif" class='gif'>
+
+					<div class="content_gif" style="position: relative;">
+						<svg class="wavy-line-common" viewBox="0 0 100 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="
+								M50,10 
+								C80,40 20,70 50,100 
+								C80,130 20,160 50,190 
+								C80,220 20,250 50,280 
+								C80,310 20,340 50,370 
+								C80,400 20,430 50,460 
+								C80,490 20,520 50,550 
+								C80,580 20,610 50,590
+								" stroke="#FF7700" stroke-width="3" stroke-dasharray="8 8" fill="none" />
+						</svg>
+
+						<h2>ИЩИ НАС В СВОЁМ ГОРОДЕ</h2>
+						<p class="section_3" >Москва <span class="flag">🚩</span></p>
+						<p class="section_3" >Санкт-Петербург <span class="flag">🚩</span></p>
+						<p class="section_3" >Новосибирск <span class="flag">🚩</span></p>
+						<p class="section_3" >Екатеринбург <span class="flag">🚩</span></p>
+
+						<p class="section_3" >Казань <span class="flag">🚩</span></p>
+					</div>
+				</div>
+			</section>
+
+			<section id='reviews'>
+				<div class='content'>
+					<h2 style="margin-bottom: 24px;">ЧТО О НАС ДУМАЮТ НАШИ ПОЛЬЗОВАТЕЛИ:</h3>
+					
+					<div class='container_otzv'>
+						<div class="testimonial mySwiper">
+							<div class="testi-content swiper-wrapper">
+								<div class="slide swiper-slide">
+									<img src="image/img1.jpg" alt="" class="image" />
+									<p>
+										Очень удобный и простой в использовании сервис! 
+										Благодаря ему я смогла обменяться книгами с людьми из 
+										разных городов и открыть для себя множество новых авторов. 
+										Рекомендую всем любителям чтения!
+									</p>
+
+									<i class="bx bxs-quote-alt-left quote-icon"></i>
+
+									<div class="details">
+										<span class="name">BookLoverAnna</span>
+
+									</div>
+								</div>
+								<div class="slide swiper-slide">
+									<img src="image/img2.jpg" alt="" class="image" />
+									<p>
+										Отличная идея и реализация! Обмен книгами стал намного проще, 
+										а общение с единомышленниками – приятным бонусом. Уже несколько 
+										раз менял книги и всегда оставался доволен качеством и скоростью обмена.
+									</p>
+
+									<i class="bx bxs-quote-alt-left quote-icon"></i>
+
+									<div class="details">
+										<span class="name">ReadAndShare</span>
+
+									</div>
+								</div>
+								<div class="slide swiper-slide">
+									<img src="image/img3.jpg" alt="" class="image" />
+									<p>
+										Сервис действительно помогает экономить деньги 
+										и расширять книжную коллекцию. Мне нравится, 
+										что можно найти редкие издания и познакомиться с новыми читателями. 
+										Спасибо за такую классную платформу!
+									</p>
+
+									<i class="bx bxs-quote-alt-left quote-icon"></i>
+
+									<div class="details">
+										<span class="name">PageTurner23</span>
+
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-next nav-btn"></div>
+							<div class="swiper-button-prev nav-btn"></div>
+
+						</div>
+					</div>
+					
+					<img src="image/test1.gif" class='gif_2'>
+				</div>
+			</section>
+			
+			<section style='display: flex;'>
+				<img src="image/test2.gif" class='gif_3'>
+				<div class='container'>
+					<h2 style="margin-bottom: 40px;">СТАНЬ ОДНИМ ИЗ НАС!</h2>
+					<a href="https://www.figma.com/design/wFiponn0jji8RqU1ihrfCe/%D0%B2%D0%B5%D0%B1?node-id=0-1&t=xHQGIlVJqZ64fFop-1" class='button' style='margin-bottom: 32px;'>
+					СКАЧАТЬ
+					</a>
+					<p style='color: #FF7700; font-size: 0.8rem; margin-top: 10px;'>*кнопка ведёт на проект в фигму</p>
+				</div>
+			</section>
+			
+			<section class='content'>
+				<div class='content' style='margin-top: 200px;'>
+				<h2>СЛЕДИ ЗА НАШИМИ НОВОСТЯМИ</h2>
+				<div style='display: flex; justify-content: space-around'>
+				<img src="image/icon1.png" class="img">
+				<img src="image/icon2.png" class="img">
+				<img src="image/icon3.png" class="img">
+				</div>
+				</div>
+				
+				<div class="menu_2" style='margin-top: 200px;'>
+					<div class="content">
+					<div class="logo-content">
+						<img src="image/logo.png" style="height: 40px;">
+						<h1 class="logo">BOOKSWAP</h1>
+					</div>
+					<p>© 2025 LebedevaMatveeva</p>
+					</div>
+					
+					<div class='content'>
+						<a href="" class='nav' style="font-size: 0.8rem;">
+							+788005553535
+						</a>
+						<a href="" class='nav' style="font-size: 0.8rem;">
+							bookcwitch@mail.ru
+						</a>
+						<a href="" class='nav' style="font-size: 0.8rem;">
+							polezniysayt.ru
+						</a>
+						<a href="" class='nav' style="font-size: 0.8rem;">
+							miochenikrutie.ru
+						</a>
+						
+					</div>
+				</div>
+			</section>
+		</main>
+			
+		<script src="styles/horizontally.js"></script>
+		
+		    <!-- Swiper JS -->
+		<script src="styles/swiper-bundle.min.js"></script>
+
+		<!-- JavaScript -->
+		<script src="styles/script.js"></script>
+
+	</body>
+
+</html>
